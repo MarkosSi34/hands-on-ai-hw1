@@ -93,7 +93,7 @@ class ModelTuner:
         logging.info(f"Best CV AUC  : {search.best_score_:.4f}")
 
         # Plot top results
-        self._plot_xgb_results(search.cv_results_)
+        # self._plot_xgb_results(search.cv_results_)
 
         # Save best model
         os.makedirs('models', exist_ok=True)
