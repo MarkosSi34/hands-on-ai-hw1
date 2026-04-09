@@ -478,7 +478,7 @@ curl http://localhost:8080/health
 ```bash
 docker stop income-api && docker rm income-api
 ```
-Αν δεν επιθυμείται πλέον το docker image απλά τρέξτε
+Αν δεν επιθυμείτε πλέον το docker image απλά τρέξτε
 ```bash
 docker rmi income-api
 ```
